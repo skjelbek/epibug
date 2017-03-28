@@ -12,6 +12,7 @@ namespace EpiBug.Models.Blocks
         GroupName = Global.GroupNames.Specialized,
         GUID = "FA326346-4D4C-4E82-AFE8-C36279006179")]
     [SiteImageUrl]
+    [ContentTypeIcon("form")]
     public class FormBlock : SiteBlockData
     {
         [Display(
